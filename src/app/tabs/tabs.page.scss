@@ -1,0 +1,14 @@
+
+ion-tab-bar {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    --background: rgb(96, 117, 233, 0.468);
+    ;
+    align-self: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    ion-tab-buton{
+        --background: rgb(96, 117, 233, 0.468);
+    }
+}
