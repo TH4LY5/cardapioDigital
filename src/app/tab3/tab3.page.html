@@ -1,0 +1,39 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-item >
+      <ion-avatar slot="start">
+        <img src="../../assets/image/garcon.png">
+      </ion-avatar>
+      <ion-label>
+        <h2><b>Marcos Henrique</b></h2>
+        <h3>1234</h3>
+      </ion-label>
+    </ion-item>
+  </ion-card>
+  <ion-card>
+    <ion-item routerLink="/pedidos">
+      <ion-icon name="time" slot="start"></ion-icon>
+      <ion-label>Pedidos em preparo</ion-label>
+    </ion-item>
+  
+    <ion-item routerLink="/pedidos">
+      <ion-icon name="bookmark" slot="start"></ion-icon>
+      <ion-label>Pedidos Finalizados</ion-label>
+    </ion-item>
+  
+    <ion-item routerLink="/pedidos">
+      <ion-icon name="list" slot="start"></ion-icon>
+      <ion-label>Totos os pedidos</ion-label>
+    </ion-item>
+  
+    <ion-item routerLink="/login">
+      <ion-icon name="exit" slot="start"></ion-icon>
+      <ion-label>Sair</ion-label>
+    </ion-item>
+  </ion-card>
+</ion-content>
